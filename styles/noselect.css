@@ -1,0 +1,6 @@
+.noselect {
+    user-select: none;
+    -moz-user-select: none; /* Firefox için */
+    -webkit-user-select: none; /* WebKit (Chrome, Safari) için */
+    -ms-user-select: none; /* Internet Explorer için */
+}

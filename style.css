@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 50px;
+    background-color: var(--bs-dark);
+    color: var(--bs-light)
+}
+
+img{
+    height: 130px;
+    width: 130px;
+    display: inline-block;
+}
+
+h1{
+    margin: 0;
+    display: inline-block;
+    color: var(--bs-success);
+}
+
+button{
+    border: 5px solid #000000;
+    background-color: #16191b;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 30px;
+    padding: 10px;
+    color: var(--bs-info);
+    display: block;
+    transition: box-shadow 1s;
+}
+
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 12px 12px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.aut{
+    color: var(--bs-danger);
+}
+
+a{
+    color: var(--bs-teal);
+    text-decoration: none;
+}
+
+a::before{
+    content: "->";
+    color: var(--bs-success);
+}
+
+a::after{
+    content: "<-";
+    color: var(--bs-success);
+}
+
+#bol{
+    width: 35px;
+}
+
+label{
+    color: var(--bs-warning);
+}
