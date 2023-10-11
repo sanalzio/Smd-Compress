@@ -96,6 +96,7 @@ document.getElementById('fileInput').addEventListener('change', function () {
             fileContentData = e.target.result;
         };
         reader.readAsText(file);
+        fileInput.value = '';
     }
 });
 
